@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    padding: 45px;
+    font-family: Cambria, Georgia, serif;
+    position: relative;
+}
+
+header .fas fa-helicopter {
+    float: left;
+    background-color: whitesmoke;
+    padding-left: 45px;
+}
+
+
+
+.country {
+    float: left;
+    width: 22%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid burlywood;
+    box-shadow: 0 8px 10px black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.country img {
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    
+}
+
+h3 {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+button {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+
+@media (max-width: 800px) {
+    .country {
+        width: 46%;
+        margin: 10px 1%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .country {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
